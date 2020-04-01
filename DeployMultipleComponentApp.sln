@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstFunctionApp", "FirstFunctionApp\FirstFunctionApp.csproj", "{140EE9DF-4498-46EC-AEB9-6521138004C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondFunctionApp", "SecondFunctionApp\SecondFunctionApp.csproj", "{BF27E48D-71E8-43E1-AF52-B90BFAFF1F7A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Swagger", "Swagger\Swagger.shproj", "{E3A9227B-FFD5-40AE-A868-D7347A572D98}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Swagger\Swagger.projitems*{e3a9227b-ffd5-40ae-a868-d7347a572d98}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{140EE9DF-4498-46EC-AEB9-6521138004C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140EE9DF-4498-46EC-AEB9-6521138004C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140EE9DF-4498-46EC-AEB9-6521138004C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140EE9DF-4498-46EC-AEB9-6521138004C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF27E48D-71E8-43E1-AF52-B90BFAFF1F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF27E48D-71E8-43E1-AF52-B90BFAFF1F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF27E48D-71E8-43E1-AF52-B90BFAFF1F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF27E48D-71E8-43E1-AF52-B90BFAFF1F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F070810D-B062-40D6-8403-D6EEA7A39982}
+	EndGlobalSection
+EndGlobal
