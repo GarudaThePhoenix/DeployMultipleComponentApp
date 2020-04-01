@@ -14,12 +14,21 @@ pool:
 variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Debug'
-  projectName: 'FirstFunctionApp/FirstFunctionApp.csproj'
+  projectName: 'DeployMultipleComponentApp.sln'
   
 steps:
+- task: DotNetCoreCLI@2
+  inputs:
+    command: restore
+    projects: $(projectName)
+
 - task: DotNetCoreCLI@2
   inputs:
     command: build
     projects: $(projectName)
     configuration: $(buildConfiguration)
+
+- task: ResharperCli@2
+  inputs:
+    solutionOrProjectPath: $(projectName)
     
