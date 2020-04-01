@@ -14,8 +14,12 @@ pool:
 variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Debug'
+  projectName: 'FirstFunctionApp/FirstFunctionApp.csproj'
   
 steps:
-- task: NuGetToolInstaller@0
+- task: DotNetCoreCLI@2
   inputs:
-    versionSpec: '4.9.2'
+    command: build
+    projects: $(projectName)
+    configuration: $(buildConfiguration)
+    
